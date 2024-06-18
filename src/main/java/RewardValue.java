@@ -29,7 +29,7 @@ public class RewardValue {
     }
 
     public int convertFromCashToMiles(double cashValue) {
-        milesValue = (int) cashValue;
+        milesValue = (int) (cashValue / 0.0035);
         return milesValue;
     }
 
